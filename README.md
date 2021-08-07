@@ -43,13 +43,23 @@ clusterctl config
  
 Install clusterctl binary with curl on linux
 
-Download the latest release; on linux, type:
+Download the latest release; on linux, or macOS(amd64).
 
+
+Linux
 ```
 curl -L https://github.com/kubernetes-sigs/cluster-api/releases/download/v0.4.0/clusterctl-linux-amd64 -o clusterctl
 Make the clusterctl binary executable.
+```
+
+MacOS(amd64),
+```
+curl -L https://github.com/kubernetes-sigs/cluster-api/releases/download/v0.4.0/clusterctl-darwin-amd64 -o clusterctl
+```
 
 
+Then
+```
 chmod +x ./clusterctl
 Move the binary in to your PATH.
 
