@@ -201,6 +201,6 @@ kubectl -n capa-system get pods (to view the capa controller)
 
 This Provider drives KubeADM to bootstrap Kubernetes clusters.
 
-It uses KubeADm related objects like KubeadmControlPlane, KubeadmConfig, or a KubeadmConfig Template
+It uses KubeADM related objects like KubeadmControlPlane, KubeadmConfig, or a KubeadmConfig Template
 
 <ClusterCTL Yaml File Place Holder>
