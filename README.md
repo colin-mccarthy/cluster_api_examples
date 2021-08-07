@@ -52,7 +52,7 @@ curl -L https://github.com/kubernetes-sigs/cluster-api/releases/download/v0.4.0/
 Make the clusterctl binary executable.
 ```
 
-MacOS(amd64),
+MacOS(amd64)
 ```
 curl -L https://github.com/kubernetes-sigs/cluster-api/releases/download/v0.4.0/clusterctl-darwin-amd64 -o clusterctl
 ```
