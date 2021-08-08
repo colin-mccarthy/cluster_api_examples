@@ -4,11 +4,11 @@
 
 ## Terms:
 
-`Managment Cluster`: Kubernetes cluster where Cluster API has been installed.
+`Management Cluster`: Kubernetes cluster where Cluster API has been installed.
 
-`Workload Cluster`: Kubernetes cluster that has been created and is being manged by Cluster API via the Managment Cluster.
+`Workload Cluster`: Kubernetes cluster that has been created and is being manged by Cluster API via the Management Cluster.
 
-`Bootstrap Cluster`: Temporary cluster used when creating a Managemnet cluster.
+`Bootstrap Cluster`: Temporary cluster used when creating a Management cluster.
 
 `Provider`: Cluster APi uses the idea of a provider to interact with underlying IaaS platforms, such as AWS, vSphere, or Azure. providers
 have abreviations like CAPA (Cluster API Provider for AWS), CAPZ (Cluster API Provider for Azure), and CAPV (Cluster API Provider for vSphere).
