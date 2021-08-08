@@ -13,7 +13,7 @@
 `Provider`: Cluster APi uses the idea of a provider to interact with underlying IaaS platforms, such as AWS, vSphere, or Azure. providers
 have abreviations like CAPA (Cluster API Provider for AWS), CAPZ (Cluster API Provider for Azure), and CAPV (Cluster API Provider for vSphere).
 
-`clusterctl`: A command line tool for performing certain Cluster API related operations.
+`clusterctl`: A command line tool for performing Cluster API related operations.
 
 ## Clusterctl:
 
